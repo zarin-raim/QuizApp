@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center_vertical|center"
+    android:gravity="center"
     android:background="@drawable/ic_bg"
     tools:context=".MainActivity">
 
@@ -17,7 +17,7 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         android:gravity="center"
-        android:text="QuizApp" />
+        android:text="@string/quizapp" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -32,7 +32,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:gravity="center_horizontal"
             android:padding="16dp">
 
             <TextView
@@ -42,15 +41,16 @@
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:gravity="center"
-                android:text="Welcome" />
+                android:text="@string/welcome" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textSize="16sp"
+                android:layout_marginTop="16dp"
                 android:textStyle="bold"
-                android:text="Please enter your name." />
+                android:text="@string/please_enter_your_name" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -61,7 +61,7 @@
                     android:id="@+id/etName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Name"/>
+                    android:hint="@string/name"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
@@ -70,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:textSize="18sp"
-                android:text="Start" />
+                android:text="@string/start" />
 
         </LinearLayout>
 

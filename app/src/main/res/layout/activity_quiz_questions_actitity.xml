@@ -107,7 +107,7 @@
             android:layout_margin="10dp"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:text="Submit"/>
+            android:text="@string/submit"/>
     </LinearLayout>
 
 </ScrollView>
